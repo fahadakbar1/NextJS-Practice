@@ -23,7 +23,7 @@ const Nav = () => {
           </li>
           <li className={styles.navbarItem}>
             <Link className={styles.navbarLink} href="/movies">
-              Movie
+              Movies
             </Link>
           </li>
         </ul>
