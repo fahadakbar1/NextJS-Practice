@@ -1,5 +1,11 @@
+import HeroSection from "./components/HeroSection";
+
 const Page = () => {
-  return <h1>Hello Next JS</h1>;
+  return (
+    <>
+      <HeroSection title="Let's watch Movie Together" imageUrl="/home.svg" />
+    </>
+  );
 };
 
 export default Page;
