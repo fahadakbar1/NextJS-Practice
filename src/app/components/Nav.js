@@ -12,17 +12,17 @@ const Nav = () => {
             </Link>
           </li>
           <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/">
+            <Link className={styles.navbarLink} href="/about">
               About
             </Link>
           </li>
           <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/">
+            <Link className={styles.navbarLink} href="/contact">
               Contact
             </Link>
           </li>
           <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/">
+            <Link className={styles.navbarLink} href="/movie">
               Movie
             </Link>
           </li>
