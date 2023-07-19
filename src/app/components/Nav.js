@@ -22,8 +22,8 @@ const Nav = () => {
             </Link>
           </li>
           <li className={styles.navbarItem}>
-            <Link className={styles.navbarLink} href="/movie">
-              Movie
+            <Link className={styles.navbarLink} href="/movies">
+              Movies
             </Link>
           </li>
         </ul>
