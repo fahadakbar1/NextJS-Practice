@@ -1,4 +1,5 @@
 import ContactCard from "../components/ContactCard";
+import ContactForm from "../components/ContactForm";
 import styles from './contact.module.css'
 
 const Contact = () => {
@@ -6,6 +7,7 @@ const Contact = () => {
       <>
         <h1>Contact Us</h1>
         <ContactCard/>
+        <ContactForm/>
       </>
     );
   };
