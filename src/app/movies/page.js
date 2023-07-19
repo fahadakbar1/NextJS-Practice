@@ -1,4 +1,5 @@
 import MovieCard from "../components/MovieCard";
+import styles from "@/app/styles/common.module.css"
 
 const Page = async () => {
   await new Promise((resolve) => setTimeout(resolve, 2000));
@@ -17,10 +18,16 @@ const Page = async () => {
 
   return (
     <>
-      <h1>Series & Movies</h1>
-      {movies_data.map((movie) => {
-        return <MovieCard key={movie.id} {...movie} />;
-      })}
+      <section className={styles.movieSection}>
+        <div className={styles.container}>
+          <h1>Series & Movie</h1>
+          <div className={styles.card_section}>
+            {movies_data.map((movie) => {
+              return <MovieCard key={movie.id} {...movie} />;
+            })}
+          </div>
+        </div>
+      </section>
     </>
   );
 };
