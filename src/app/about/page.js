@@ -1,6 +1,6 @@
 import HeroSection from "../components/HeroSection";
 
-const Page = () => {
+const About = () => {
   return (
     <>
       <HeroSection title="Our Story" imageUrl="/about.svg" />
@@ -8,4 +8,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default About;
