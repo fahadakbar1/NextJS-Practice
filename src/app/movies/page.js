@@ -1,7 +1,7 @@
 import MovieCard from "../components/MovieCard";
 import styles from "@/app/styles/common.module.css";
 
-const Page = async () => {
+const Movies = async () => {
   await new Promise((resolve) => setTimeout(resolve, 2000));
   const url = process.env.RAPID_KEY;
   const options = {
@@ -32,4 +32,4 @@ const Page = async () => {
   );
 };
 
-export default Page;
+export default Movies;
