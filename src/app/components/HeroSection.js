@@ -16,7 +16,7 @@ const HeroSection = ({ title, imageUrl }) => {
               got you covered. Browse our selection of the latest and greatest
               movies, and find your new favorite today.
             </p>
-            <Link href="/movie">
+            <Link href="/movies">
               <button>Explore Movies</button>
             </Link>
           </div>
